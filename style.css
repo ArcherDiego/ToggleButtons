@@ -1,0 +1,27 @@
+main, body{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+div{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0 10% 0 10%;
+}
+
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.btn-off{
+    background-color: gray;
+    box-shadow: 2px 2px lightgray;
+}
+
+.btn-on{
+    background-color: yellow;
+    box-shadow: 2px 2px lightyellow;
+}
