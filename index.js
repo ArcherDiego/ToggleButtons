@@ -5,7 +5,7 @@ const buttonFour = document.getElementById('button-4')
 
 const button = document.querySelectorAll('.btn')
 
-function toggleButton(toggle){
+const toggleButton = (toggle) => {
     if(toggle == 'OFF'){
         button.innerText = 'ON'
         button.classList.remove('btn-off')
@@ -18,4 +18,3 @@ function toggleButton(toggle){
 }
 
 buttonOne.onclick = () => toggleButton(button.innerText)
-buttonTwo.onclick = () => toggleButton(button.innerText)
